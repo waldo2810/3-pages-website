@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Acme Pro</title>
+  </head>
+  <body>
+    <div class="portafolio">
+      <header>
+        <nav>
+          <h3 class="logo">Acme Pro</h3>
+          <svg
+            class="menu"
+            width="43"
+            height="23"
+            viewBox="0 0 43 23"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line y1="1.0" x2="35" y2="1.0" stroke="white" stroke-width="3" />
+            <line y1="11.0" x2="25" y2="11.0" stroke="white" stroke-width="3" />
+            <line y1="21.0" x2="15" y2="21.0" stroke="white" stroke-width="3" />
+          </svg>
+          <div class="nav-open">
+            <div class="contact">
+              <h3>Contact</h3>
+              <p>3108248125</p>
+            </div>
+            <div class="social">
+              <h3>Social</h3>
+              <div class="social-links">
+                <img src="./img/Facebook.svg" alt="facebook" />
+                <img src="./img/Twitter.svg" alt="twitter" />
+                <img src="./img/Instagram.svg" alt="instagram" />
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section class="page photographer">
+          <div class="details">
+            <h1>Elena Morell</h1>
+            <h2>Photographer</h2>
+            <p>2/17/2018</p>
+          </div>
+          <div class="hero">
+            <a href="./photo.html">
+              <img class="model-left" src="./img/model-left.jpg" alt="model" />
+              <img
+                class="model-right"
+                src="./img/model-right.jpg"
+                alt="model"
+              />
+            </a>
+          </div>
+        </section>
+        <section class="page chef">
+          <div class="details">
+            <h1>John Savos</h1>
+            <h2>Pro Chef</h2>
+            <p>4/3/2015</p>
+          </div>
+          <div class="hero">
+            <a href="./chef.html">
+              <img class="model-left" src="./img/chef-left.png" alt="chef" />
+              <img class="model-right" src="./img/chef-right.png" alt="chef" />
+            </a>
+          </div>
+        </section>
+        <section class="page barber">
+          <div class="details">
+            <h1>Brian Garcia</h1>
+            <h2>Barber</h2>
+            <p>10/28/2010</p>
+          </div>
+          <div class="hero">
+            <a href="./barber.html">
+              <img
+                class="model-left"
+                src="./img/barber-left.png"
+                alt="barber"
+              />
+              <img
+                class="model-right"
+                src="./img/barber-right.png"
+                alt="barber"
+              />
+            </a>
+          </div>
+        </section>
+        <div class="pages">
+          <div class="page-1">
+            <h3>01</h3>
+            <svg
+              class="slide active"
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="6" cy="6" r="6" fill="white" />
+            </svg>
+          </div>
+          <div class="page-2">
+            <h3>02</h3>
+            <svg
+              class="slide"
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="6" cy="6" r="6" fill="white" />
+            </svg>
+          </div>
+          <div class="page-3">
+            <h3>03</h3>
+            <svg
+              class="slide"
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="6" cy="6" r="6" fill="white" />
+            </svg>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+      integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+      integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
